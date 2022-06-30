@@ -54,13 +54,13 @@ function App() {
         config: sampleConfig
       })
     );
-  }, 3000);
+  }, 1000);
   return (
     <div className="App">
       <KeplerGl
         id="foo"
-        mapboxApiAccessToken="pk.eyJ1IjoibW9naXRhIiwiYSI6ImNqbjF5amp6bzAwc3gza29qa3UxZmRnazgifQ.L7WReLrormiJyfsGiXDXpw"
-        width={800}
+        mapboxApiAccessToken="pk.eyJ1IjoidWJlcmRhdGEiLCJhIjoidGllX1gxUSJ9.gElUooDF7u51guCQREmAhg"
+        width={1200}
         height={600}
       />
     </div>
